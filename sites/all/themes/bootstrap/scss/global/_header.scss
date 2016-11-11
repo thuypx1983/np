@@ -1,0 +1,50 @@
+.full-width-header{
+    background-color: $bg_1;
+}
+.full-width-header {
+
+    .navbar{
+        background-color: transparent;
+        border-radius: 0px;
+        border: 0px;
+        ul.navbar-nav{
+          li{
+            a{
+              background-color: transparent;
+              color: $color_white;
+              &:active{
+                background-color: transparent;
+                color: $color_white;
+              }
+              &:hover{
+                background-image: -moz-linear-gradient(center top , #281b4a, #392f8f);
+              }
+            }
+            ul{
+              li{
+                a{
+                  color: $color_black;
+                  &:hover{
+                    background-image: none;
+                  }
+                }
+              }
+            }
+
+          }
+        }
+    }
+}
+@include bp(min-width, $bp-tablet + 1) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+  .navbar-header{
+      display: none;
+  }
+}
+
+@include bp(max-width, $bp-tablet) {
+
+
+}

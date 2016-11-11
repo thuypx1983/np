@@ -1,0 +1,64 @@
+/* Variables */
+/* Break point */
+/* Mixin */
+/* Mixin style */
+/* animation */
+/* appearance */
+/* border radius */
+/* box-shadow */
+/* custome font */
+/* filter */
+/* transform */
+/* transition */
+/* placeholder */
+/* opacity */
+/* breakpoint with one condition(min or max) */
+/* breakpoint with two conditions (min and max) */
+/*global*/
+/* line 1, ../scss/global/_header.scss */
+.full-width-header {
+  background-color: #03337d;
+}
+
+/* line 6, ../scss/global/_header.scss */
+.full-width-header .navbar {
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0px;
+}
+/* line 12, ../scss/global/_header.scss */
+.full-width-header .navbar ul.navbar-nav li a {
+  background-color: transparent;
+  color: #ffffff;
+}
+/* line 15, ../scss/global/_header.scss */
+.full-width-header .navbar ul.navbar-nav li a:active {
+  background-color: transparent;
+  color: #ffffff;
+}
+/* line 19, ../scss/global/_header.scss */
+.full-width-header .navbar ul.navbar-nav li a:hover {
+  background-image: -moz-linear-gradient(center top, #281b4a, #392f8f);
+}
+/* line 25, ../scss/global/_header.scss */
+.full-width-header .navbar ul.navbar-nav li ul li a {
+  color: #000000;
+}
+/* line 27, ../scss/global/_header.scss */
+.full-width-header .navbar ul.navbar-nav li ul li a:hover {
+  background-image: none;
+}
+
+@media only screen and (min-width: 992px) {
+  /* line 39, ../scss/global/_header.scss */
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+
+  /* line 42, ../scss/global/_header.scss */
+  .navbar-header {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=custom_style.css.map */
