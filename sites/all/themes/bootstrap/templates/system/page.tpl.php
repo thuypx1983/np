@@ -76,7 +76,8 @@
 <div id="header-top">
     <div class="container">
        <div class="row">
-           <!--<img style="width: 100%" src="http://namphuong.vn/upload/config/banner-website-9.jpg">-->
+           <?php print render($page['header_top']); ?>
+
        </div>
     </div>
 </div>
@@ -111,7 +112,7 @@
                             <?php print render($primary_nav); ?>
                         <?php endif; ?>
                         <?php if (!empty($secondary_nav)): ?>
-                            <?php print render($secondary_nav); ?>
+                            <?php //print render($secondary_nav); ?>
                         <?php endif; ?>
                         <?php if (!empty($page['navigation'])): ?>
                             <?php print render($page['navigation']); ?>
@@ -174,8 +175,20 @@
   </div>
 </div>
 
-<?php if (!empty($page['footer'])): ?>
-  <footer class="footer <?php print $container_class; ?>">
-    <?php print render($page['footer']); ?>
-  </footer>
-<?php endif; ?>
+<footer class="footer">
+    <div class="<?php print $container_class; ?>">
+        <div class="row">
+            <div class="col-md-3 col-lg-3">
+                <?php print render($page['footer_col_1'])?>
+            </div>
+             <div class="col-md-5 col-lg-5">
+                    <?php print render($page['footer_col_2'])?>
+                </div>
+             <div class="col-md-4 col-lg-4">
+                    <?php print render($page['footer_col_3'])?>
+                </div>
+            </div>
+
+    </div>
+    <div class="bottom"><?php print render($page['footer_bottom']); ?></div>
+</footer>

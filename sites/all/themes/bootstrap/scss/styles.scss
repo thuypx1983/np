@@ -5,4 +5,15 @@
 @import "mixin";
 
 /*global*/
-@import "global/header"
+@import "global/general";
+@import "global/header";
+@import "global/body";
+@import "global/footer";
+
+/*components*/
+@import "components/product_hot";
+@import "components/news_hot";
+@import "components/webform";
+
+/*page*/
+@import "pages/product_list";

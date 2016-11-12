@@ -16,13 +16,17 @@ simplytest_dependencies[] = jquery_update
 ;;;;;;;;;;;;;;;;;;;;;
 
 regions[navigation]     = 'Navigation'
-regions[header]         = 'Top Bar'
+regions[header_top]         = 'header top'
+regions[header]         = 'header'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
-regions[footer]         = 'Footer'
+regions[footer_col_1]         = 'Footer column 1'
+regions[footer_col_2]         = 'Footer column 2'
+regions[footer_col_3]         = 'Footer column 3'
+regions[footer_bottom]         = 'Footer bottom'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 

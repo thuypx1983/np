@@ -1,12 +1,21 @@
 .full-width-header{
     background-color: $bg_1;
 }
+.not-front{
+  .full-width-header {
+    .navbar{
+      margin-bottom: 20px;
+    }
+  }
+
+}
 .full-width-header {
 
     .navbar{
         background-color: transparent;
         border-radius: 0px;
         border: 0px;
+        margin-bottom: 0px;
         ul.navbar-nav{
           li{
             a{
@@ -41,6 +50,16 @@
   }
   .navbar-header{
       display: none;
+  }
+  .navbar-nav > li + li::before {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)) repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 1px;
   }
 }
 

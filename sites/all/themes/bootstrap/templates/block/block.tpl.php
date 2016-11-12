@@ -49,7 +49,7 @@
 
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
-    <h2<?php print $title_attributes; ?>><span><?php print $title; ?></span></h2>
+    <span class="block-title"><?php print $title; ?></span>
   <?php endif;?>
   <?php print render($title_suffix); ?>
 
