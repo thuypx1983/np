@@ -4,7 +4,7 @@
     margin-bottom: 30px;
     .view-row-content{
       @include box-style(#f7f6fb, #999);
-
+      height: 100%;
       h2{
         color: $color_link;
         font-size:22px;

@@ -76,7 +76,11 @@
 <div id="header-top">
     <div class="container">
        <div class="row">
-           <?php print render($page['header_top']); ?>
+           <div class="col-md-12">
+               <div class="row">
+                    <?php print render($page['header_top']); ?>
+               </div>
+           </div>
 
        </div>
     </div>

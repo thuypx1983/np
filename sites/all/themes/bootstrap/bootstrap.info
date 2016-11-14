@@ -4,6 +4,9 @@ core = 7.x
 
 stylesheets[all][] = css/custom_style.css
 
+scripts[]=js/jquery.matchHeight.js
+scripts[]=js/script.js
+
 ;;;;;;;;;;;;;;;;;;;;;
 ;; SimplyTest.me
 ;;;;;;;;;;;;;;;;;;;;;

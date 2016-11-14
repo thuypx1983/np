@@ -9,6 +9,19 @@
   }
 
 }
+.full-width-header  .navbar-default .navbar-nav > .active > a{
+  color: $color_white;
+}
+.html{
+  .region-header-top{
+    background: rgba(0, 0, 0, 0) url("../images/banner_head.png") no-repeat scroll 100% 0 / cover ;
+    min-height: 120px;
+    position: relative;
+  }
+  .navbar.container{
+    margin-top:0px;
+  }
+}
 .full-width-header {
 
     .navbar{
@@ -21,12 +34,15 @@
             a{
               background-color: transparent;
               color: $color_white;
-              &:active{
+              .active{
                 background-color: transparent;
                 color: $color_white;
+                &:hover{
+                  color: $color_white;
+                }
               }
               &:hover{
-                background-image: -moz-linear-gradient(center top , #281b4a, #392f8f);
+                background-image: -moz-linear-gradient(center top , #028002, #028002);
               }
             }
             ul{

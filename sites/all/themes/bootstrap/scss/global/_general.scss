@@ -4,3 +4,8 @@
   margin-bottom: 10px;
   display: block;
 }
+.html a{
+  &:hover{
+    color: #028002;
+  }
+}
