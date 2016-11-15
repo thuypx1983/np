@@ -12,12 +12,30 @@
 .full-width-header  .navbar-default .navbar-nav > .active > a{
   color: $color_white;
 }
+
+.header-banner{
+  p{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
 .html{
   .region-header-top{
     background: rgba(0, 0, 0, 0) url("../images/banner_head.png") no-repeat scroll 100% 0 / cover ;
     min-height: 120px;
     position: relative;
+    .logo{
+      img{
+        max-height:120px ;
+      }
+
+    }
   }
+
   .navbar.container{
     margin-top:0px;
   }

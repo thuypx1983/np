@@ -75,14 +75,7 @@
 ?>
 <div id="header-top">
     <div class="container">
-       <div class="row">
-           <div class="col-md-12">
-               <div class="row">
-                    <?php print render($page['header_top']); ?>
-               </div>
-           </div>
-
-       </div>
+           <?php print render($page['header_top']); ?>
     </div>
 </div>
 <div class="full-width-header">

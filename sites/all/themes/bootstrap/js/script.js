@@ -7,6 +7,12 @@
             target: null,
             remove: false
         });
+         $('.region-header-top >section').matchHeight({
+                    byRow: true,
+                    property: 'height',
+                    target: null,
+                    remove: false
+         });
 
     })
 
