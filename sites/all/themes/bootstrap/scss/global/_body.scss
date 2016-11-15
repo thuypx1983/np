@@ -1,6 +1,6 @@
 .not-front {
   .main-container{
-    .col-sm-9{
+    .content-container{
       @include box-style(#f7f6fb, #999);
     }
     .breadcrumb{

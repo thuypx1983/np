@@ -125,7 +125,7 @@
   }
 }
 /* line 3, ../scss/global/_body.scss */
-.not-front .main-container .col-sm-9 {
+.not-front .main-container .content-container {
   background: #f7f6fb none repeat scroll 0 0;
   border-radius: 5px;
   box-shadow: 0 0 4px #999 inset;
@@ -239,7 +239,7 @@ footer.footer .social-profile-bottom a {
 }
 /* line 38, ../scss/components/_product_hot.scss */
 .product-hot .views-row .view-row-content .views-field-view-node {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 /* line 40, ../scss/components/_product_hot.scss */
 .product-hot .views-row .view-row-content .views-field-view-node a {
